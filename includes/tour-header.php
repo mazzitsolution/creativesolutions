@@ -1,12 +1,11 @@
 	<header class="header menu_fixed">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
 		<div id="logo">
-			<a href="index.html">
-				<img src="img/logo.svg" width="150" height="36" alt="" class="logo_normal">
-				<img src="img/logo_sticky.svg" width="150" height="36" alt="" class="logo_sticky">
+			<a href="index.php">
+				<img src="../img/logo.svg" width="150" height="36" alt="" class="logo_normal">
+				<img src="../img/logo_sticky.svg" width="150" height="36" alt="" class="logo_sticky">
 			</a>
 		</div>
-
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
 			<div class="hamburger hamburger--spin" id="hamburger">
@@ -17,7 +16,7 @@
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul>
-                <li><span><a href="index.php">Home</a></span></li>
+                <li><span><a href="../index.php">Home</a></span></li>
 
 				<li><span><a href="#0">Ayurweda</a></span>
 					<ul>
@@ -35,7 +34,7 @@
 						<li><a href="kituhlgala-tour.php">Kithulgala Water Rafting Day Tour</a></li>
 						<li><a href="galle-tour.php">Galle Day Tour</a></li>
 						<li><a href="yala-tour.php">Yala National Park Day Tour</a></li>
-						<li><a href="udawalawa-tour.php">Udawalawe safari Day Tour</a></li>
+						<li><a href="udawalawe-tour.php">Udawalawe safari Day Tour</a></li>
 						<li><a href="kandy-tour.php">Kandy Day Tour</a></li>
 						<li><a href="mirissa-tour.php">Whale watching Tour</a></li>
 						<li><a href="benthota-tour.php">Bentota Deep Sea Fishing Day Tour</a></li>

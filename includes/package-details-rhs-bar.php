@@ -1,97 +1,33 @@
-<aside class="widget widget_blogs lg:mt-[50px] mt-10">
-                        <h4 class="text-dark-1 lg:text-[25px] text-2md leading-[1.6] capitalize font-semibold mb-5" style="display: none;">
-                            Other Tours</h4>
-                        <ul style="display: none;">
-                            <li class="flex items-center group mt-6 first:mt-0">
-                                <a href="package-details.html" class="shrink-0 w-20 mr-[15px] overflow-hidden">
-                                    <img src="assets/images/blog/ts-1.webp" alt="blogs"
-                                        class="w-full group-hover:scale-105 duration-200" />
-                                </a>
-                                <div class="grow">
-                                    <ul class="text-sm text-orange-500">
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-half"></i></li>
-                                    </ul>
-                                    <h5
-                                        class="lg:text-md mt-1 text-base font-semibold leading-[1.64] group-hover:text-primary-1 duration-200 fixed-title">
-                                        <a href="package-details.html">The Great Wall, Chaina</a>
-                                    </h5>
-                                    <div class="mt-[5px] text-dark-2">
-                                        <span>
-                                            Form
-                                        </span>
-                                        <span class="text-primary-1 font-medium">$140.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="flex items-center group mt-6 first:mt-0">
-                                <a href="package-details.html" class="shrink-0 w-20 mr-[15px] overflow-hidden">
-                                    <img src="assets/images/blog/ts-2.webp" alt="blogs"
-                                        class="w-full group-hover:scale-105 duration-200" />
-                                </a>
-                                <div class="grow">
-                                    <ul class="text-sm text-orange-500">
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-half"></i></li>
-                                    </ul>
-                                    <h5
-                                        class="lg:text-md mt-1 text-base font-semibold leading-[1.64] group-hover:text-primary-1 duration-200 fixed-title">
-                                        <a href="package-details.html">Longest Sea Beach, Cox's Bazar</a>
-                                    </h5>
-                                    <div class="mt-[5px] text-dark-2">
-                                        <span>
-                                            Form
-                                        </span>
-                                        <span class="text-primary-1 font-medium">$140.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="flex items-center group mt-6 first:mt-0">
-                                <a href="package-details.html" class="shrink-0 w-20 mr-[15px] overflow-hidden">
-                                    <img src="assets/images/blog/ts-3.webp" alt="blogs"
-                                        class="w-full group-hover:scale-105 duration-200" />
-                                </a>
-                                <div class="grow">
-                                    <ul class="text-[13px] text-orange-500">
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-fill"></i></li>
-                                        <li class="mr-[2px] last:mr-0 inline-block"><i class="bi bi-star-half"></i></li>
-                                    </ul>
-                                    <h5
-                                        class="lg:text-md mt-[3px] text-base font-semibold leading-[1.64] group-hover:text-primary-1 duration-200 fixed-title">
-                                        <a href="package-details.html">Long Trail Mountain, Napal</a>
-                                    </h5>
-                                    <div class="mt-[5px] text-dark-2">
-                                        <span>
-                                            Form
-                                        </span>
-                                        <span class="text-primary-1 font-medium">$140.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </aside>
-
-                    <aside class="widget widget_social lg:mt-[50px] mt-10">
-                        <h4 class="text-dark-1 lg:text-[25px] text-2md leading-[1.6] capitalize font-semibold mb-1">
-                            Follow us via social media</h4>
-
-                        <ul>
-                            <li class="inline-block mt-4 lg:mr-7 mr-5 last:mr-0"><a href="#"
-                                    class="primary_social__icon"><i class="bi bi-twitter"></i></a></li>
-                            <li class="inline-block mt-4 lg:mr-7 mr-5 last:mr-0"><a target="_blank" href="https://www.facebook.com/travelwithlankanvoyage/"
-                                    class="primary_social__icon"><i class="bi bi-facebook"></i></a></li>
-                            <li class="inline-block mt-4 lg:mr-7 mr-5 last:mr-0"><a href="#"
-                                    class="primary_social__icon"><i class="bi bi-pinterest"></i></a></li>
-                            <li class="inline-block mt-4 lg:mr-7 mr-5 last:mr-0"><a href="#"
-                                    class="primary_social__icon"><i class="bi bi-instagram"></i></a></li>
-                        </ul>
-                    </aside>
+<aside class="col-lg-4" id="sidebar">
+						<div class="box_detail booking">
+							<div class="price">
+								<span>45$ <small>person</small></span>
+								<div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div>
+							</div>
+							<div class="form-group input-dates">
+								<input class="form-control" type="text" name="dates" placeholder="When..">
+								<i class="icon_calendar"></i>
+							</div>
+							<div class="panel-dropdown">
+								<a href="#">Guests <span class="qtyTotal">1</span></a>
+								<div class="panel-dropdown-content right">
+									<div class="qtyButtons">
+										<label>Adults</label>
+										<input type="text" name="qtyInput" value="1">
+									</div>
+									<div class="qtyButtons">
+										<label>Childrens</label>
+										<input type="text" name="qtyInput" value="0">
+									</div>
+								</div>
+							</div>
+							<a href="cart-1.html" class="btn_1 full-width purchase">Contact Us</a>
+							<!-- <a href="wishlist.html" class="btn_1 full-width outline wishlist"><i class="icon_heart"></i> Add to wishlist</a> -->
+							<!-- <div class="text-center"><small>No money charged in this step</small></div> -->
+						</div>
+						<ul class="share-buttons">
+							<li><a class="fb-share" href="#0"><i class="social_facebook"></i> Share</a></li>
+							<li><a class="twitter-share" href="#0"><i class="social_twitter"></i> Tweet</a></li>
+							<li><a class="gplus-share" href="#0"><i class="social_googleplus"></i> Share</a></li>
+						</ul>
+					</aside>
