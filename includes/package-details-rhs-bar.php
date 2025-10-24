@@ -1,9 +1,9 @@
 <aside class="col-lg-4" id="sidebar">
 						<div class="box_detail booking">
-							<div class="price">
+							<!-- <div class="price">
 								<span>45$ <small>person</small></span>
 								<div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div>
-							</div>
+							</div> -->
 							<div class="form-group input-dates">
 								<input class="form-control" type="text" name="dates" placeholder="When..">
 								<i class="icon_calendar"></i>

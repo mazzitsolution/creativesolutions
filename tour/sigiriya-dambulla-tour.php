@@ -55,7 +55,9 @@
 				<div class="container">
 					<ul class="clearfix">
 						<li><a href="#description" class="active">Description</a></li>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) { ?>
 						<li><a href="#reviews">Reviews</a></li>
+						<?php } ?>
 						<li><a href="#sidebar">Booking</a></li>
 					</ul>
 				</div>
@@ -65,96 +67,147 @@
 					<div class="col-lg-8">
 						<section id="description">
 							<h2>Tour Details</h2>
-							<p>Per consequat adolescens ex, cu nibh commune <strong>temporibus vim</strong>, ad sumo viris eloquentiam sed. Mea appareat omittantur eloquentiam ad, nam ei quas oportere democritum. Prima causae admodum id est, ei timeam inimicus sed. Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
-							<p>Cum et probo menandri. Officiis consulatu pro et, ne sea sale invidunt, sed ut sint <strong>blandit</strong> efficiendi. Atomorum explicari eu qui, est enim quaerendum te. Quo harum viris id. Per ne quando dolore evertitur, pro ad cibo commune.</p>
+							<p style="text-align: justify;">Two of Sri Lanka’s most renowned tourist attractions, Sigiriya and Dambulla, are both recognized as UNESCO World Heritage Sites. A day trip to explore these remarkable landmarks is often a highlight of any visit to Sri Lanka. Sigiriya, in particular, is celebrated worldwide and is often referred to as the Eighth Wonder of the World.</p>
+							<h3 class="fadeInUp"><span></span>The Lion Rock Legacy at Sigiriya</h3>
+							<p style="text-align: justify;">Rising majestically from the heart of Sri Lanka, Sigiriya Rock Fortress is a timeless symbol of the island’s rich heritage. Declared a UNESCO World Heritage Site in 1982, this ancient wonder is often celebrated as a strong contender for the title of the Eighth Wonder of the World.
 
-							<h3>Gallary</h3>
-							<div class="pictures_grid magnific-gallery clearfix">
-							    <figure><a href="../img/detail_gallery/detail_1.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_1.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_2.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_2.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_3.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_3.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_4.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_4.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_5.jpg" title="Photo title" data-effect="mfp-zoom-in"><span class="d-flex align-items-center justify-content-center">+10</span><img src="../img/detail_gallery/detail_5.jpg" alt=""></a></figure>
+Standing over 600 feet above the surrounding jungle, Sigiriya captivates both history enthusiasts and adventure lovers. The fortress gets its name, “Sigiriya” or “Lion Rock,” from the colossal lion structure that once guarded the entrance to the summit. To reach the top, visitors would ascend through the lion’s open mouth and throat — a dramatic and unforgettable approach. Though only the massive lion’s paws remain today, they still evoke a sense of grandeur, power, and mystery.
+
+At the summit, nearly an acre of flat rock reveals the remnants of a magnificent royal palace built by King Kasyapa, a masterpiece of ancient engineering and imagination. Every step through Sigiriya’s storied pathways feels like a journey through time — one that leaves visitors in awe of Sri Lanka’s enduring legacy.</p>
+
+							<div class="container margin_60_35">
+								<div class="main_title_2">
+									<span><em></em></span>
+									<h2>Here some pictures ...</h2>
+								</div>
+								<div class="grid">
+									<ul class="magnific-gallery">
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/sigiriya.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/sigiriya.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/2.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/2.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/3.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/3.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/4.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/4.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/5.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/5.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/6.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/6.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/7.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/7.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/8.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/8.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>
+								</div>
+								<!-- /grid gallery -->
 							</div>
 							<!-- /pictures -->
 							<hr>
 							<h3>Activities</h3>
-							<p>
-								Iudico omnesque vis at, ius an laboramus adversarium. An eirmod doctus admodum est, vero numquam et mel, an duo modo error. No affert timeam mea, legimus ceteros his in. Aperiri honestatis sit at. Eos aeque fuisset ei, case denique eam ne. Augue invidunt has ad, ullum debitis mea ei, ne aliquip dignissim nec.
-							</p>
-							<ul class="cbp_tmtimeline">
-								<li>
-									<time class="cbp_tmtime" datetime="09:30"><span>30 min.</span><span>09:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										1
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_1.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Interior of the cathedral</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="11:30"><span>2 hours</span><span>11:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										2
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_2.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Statue of Saint Reparata</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="13:30"><span>1 hour</span><span>13:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										3
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_3.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Huge clock decorated</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="14:30"><span>2 hours</span><span>14:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										4
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_4.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Vasari's fresco</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-							</ul>
+							<br>
+							<br>
+							<h4 class="fadeInUp"><span></span>The Timeless Beauty of the Dambulla Cave Temple</h4>
+							
+							<p style="text-align: justify;">Perched high atop a massive rock that towers over 160 meters above the surrounding plains, the Dambulla Cave Temple stands as a stunning testament to Sri Lanka’s deep Buddhist heritage. Rising to an elevation of 550 meters above sea level and stretching more than 1.5 kilometers around its base, this sacred site has watched over the island’s history for more than two millennia.</p>
+							<p style="text-align: justify;">In the first century BC, King Valagamba (Vattagamini Abhaya) sought refuge within these caves during his 14-year exile. When he regained his throne in Anuradhapura, he transformed this sanctuary into an extraordinary temple complex — a gesture of gratitude and devotion.</p>
+							<p style="text-align: justify;">Over the centuries, particularly in the 11th, 12th, and 18th centuries, the temple has been lovingly preserved and restored, ensuring its beauty endures through generations. Declared a UNESCO World Heritage Site in 1991, the Dambulla Cave Temple houses an awe-inspiring collection of ancient sculptures and murals, showcasing both religious and secular artistry.</p>
+							
 							<hr>
 							<!-- /row -->
 							<!-- End Map -->
 						</section>
 						<!-- /section -->
 						<!--========== FOOTER STYLE START ==========-->
-						<?php include '../includes/tour-page-review.php'; ?>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) include '../includes/tour-page-review.php'; ?>
 						<!--========== FOOTER STYLE END ==========-->
 						<!-- /section -->
 						<hr>
