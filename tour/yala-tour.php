@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travel Yala Tours, Book Yala Tours, Yala Tours in Sri Lanka">
+    <meta name="description" content="Travel Sigiriya Dambulla Tours, Book Sigiriya Dambulla Tours, Sigiriya Dambulla Tours in Sri Lanka">
     <meta name="author" content="Developed by MazZIT Solution">
     <meta name="keywords" content="Travel Yala Tours, Book Yala Tours, Yala Tours in Sri Lanka">
     <title><?php echo $MAIN_TITLE; ?> Yala Tours</title>
@@ -37,7 +37,7 @@
     <?php include '../includes/tour-header.php'; ?>
     <!--========== HEADER STYLE ONE END ==========-->
 	<main>
-		<section class="hero_in tours_detail" style="background: url('../img/hero_in_tours_detail_new.jpg') center center no-repeat; background-size: cover;">
+		<section class="hero_in tours_detail" style="background: url('../img/tour/yala/yala.jpg') center center no-repeat; background-size: cover;">
 			<div class="wrapper">
 				<div class="container">
 					<h1 class="fadeInUp"><span></span>Yala Tours</h1>
@@ -55,7 +55,9 @@
 				<div class="container">
 					<ul class="clearfix">
 						<li><a href="#description" class="active">Description</a></li>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) { ?>
 						<li><a href="#reviews">Reviews</a></li>
+						<?php } ?>
 						<li><a href="#sidebar">Booking</a></li>
 					</ul>
 				</div>
@@ -65,96 +67,133 @@
 					<div class="col-lg-8">
 						<section id="description">
 							<h2>Tour Details</h2>
-							<p>Per consequat adolescens ex, cu nibh commune <strong>temporibus vim</strong>, ad sumo viris eloquentiam sed. Mea appareat omittantur eloquentiam ad, nam ei quas oportere democritum. Prima causae admodum id est, ei timeam inimicus sed. Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
-							<p>Cum et probo menandri. Officiis consulatu pro et, ne sea sale invidunt, sed ut sint <strong>blandit</strong> efficiendi. Atomorum explicari eu qui, est enim quaerendum te. Quo harum viris id. Per ne quando dolore evertitur, pro ad cibo commune.</p>
+							<p style="text-align: justify;">Yala National Park, in southeastern Sri Lanka, is a wildlife lover’s paradise and one of the island’s most famous national parks. Known for its stunning landscapes—from dry forests and grassy plains to lagoons and rocky outcrops—Yala is home to an incredible variety of animals. Visitors often come hoping to catch a glimpse of the elusive Sri Lankan leopard, but the park also hosts elephants, sloth bears, crocodiles, and hundreds of bird species. Covering nearly 979 square kilometers, it’s divided into several blocks, with Block I being the most popular for safaris. Whether you’re on an early morning jeep ride or simply soaking in the scenery, Yala offers an unforgettable glimpse into Sri Lanka’s wild heart.</p>
 
-							<h3>Gallary</h3>
-							<div class="pictures_grid magnific-gallery clearfix">
-							    <figure><a href="../img/detail_gallery/detail_1.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_1.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_2.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_2.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_3.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_3.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_4.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_4.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_5.jpg" title="Photo title" data-effect="mfp-zoom-in"><span class="d-flex align-items-center justify-content-center">+10</span><img src="../img/detail_gallery/detail_5.jpg" alt=""></a></figure>
+							<div class="container margin_60_35">
+								<div class="main_title_2">
+									<span><em></em></span>
+									<h2>Here some pictures ...</h2>
+								</div>
+								<div class="grid">
+									<ul class="magnific-gallery">
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/sigiriya.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/sigiriya.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/2.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/2.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/3.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/3.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/4.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/4.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/5.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/5.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/6.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/6.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/7.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/7.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/8.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/8.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>
+								</div>
+								<!-- /grid gallery -->
 							</div>
 							<!-- /pictures -->
 							<hr>
-							<h3>Activities</h3>
-							<p>
-								Iudico omnesque vis at, ius an laboramus adversarium. An eirmod doctus admodum est, vero numquam et mel, an duo modo error. No affert timeam mea, legimus ceteros his in. Aperiri honestatis sit at. Eos aeque fuisset ei, case denique eam ne. Augue invidunt has ad, ullum debitis mea ei, ne aliquip dignissim nec.
-							</p>
-							<ul class="cbp_tmtimeline">
-								<li>
-									<time class="cbp_tmtime" datetime="09:30"><span>30 min.</span><span>09:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										1
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_1.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Interior of the cathedral</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="11:30"><span>2 hours</span><span>11:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										2
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_2.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Statue of Saint Reparata</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="13:30"><span>1 hour</span><span>13:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										3
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_3.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Huge clock decorated</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="14:30"><span>2 hours</span><span>14:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										4
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_4.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Vasari's fresco</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-							</ul>
+							
 							<hr>
 							<!-- /row -->
 							<!-- End Map -->
 						</section>
 						<!-- /section -->
 						<!--========== FOOTER STYLE START ==========-->
-						<?php include '../includes/tour-page-review.php'; ?>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) include '../includes/tour-page-review.php'; ?>
 						<!--========== FOOTER STYLE END ==========-->
 						<!-- /section -->
 						<hr>

@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travel Galle Tours, Book Galle Tours, Galle Tours in Sri Lanka">
+    <meta name="description" content="Travel Sigiriya Dambulla Tours, Book Sigiriya Dambulla Tours, Sigiriya Dambulla Tours in Sri Lanka">
     <meta name="author" content="Developed by MazZIT Solution">
     <meta name="keywords" content="Travel Galle Tours, Book Galle Tours, Galle Tours in Sri Lanka">
-    <title><?php echo $MAIN_TITLE; ?> Galle Tour</title>
+    <title><?php echo $MAIN_TITLE; ?> Galle Tours</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
@@ -37,10 +37,10 @@
     <?php include '../includes/tour-header.php'; ?>
     <!--========== HEADER STYLE ONE END ==========-->
 	<main>
-		<section class="hero_in tours_detail" style="background: url('../img/hero_in_tours_detail_new.jpg') center center no-repeat; background-size: cover;">
+		<section class="hero_in tours_detail" style="background: url('../img/tour/galle/Galle_Fort.jpg') center center no-repeat; background-size: cover;">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Galle Tour</h1>
+					<h1 class="fadeInUp"><span></span>Galle Tours</h1>
 				</div>
 				<span class="magnific-gallery">
 					<a href="../img/gallery/tour_list_1.jpg" class="btn_photos" title="Photo title" data-effect="mfp-zoom-in">View photos</a>
@@ -55,7 +55,9 @@
 				<div class="container">
 					<ul class="clearfix">
 						<li><a href="#description" class="active">Description</a></li>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) { ?>
 						<li><a href="#reviews">Reviews</a></li>
+						<?php } ?>
 						<li><a href="#sidebar">Booking</a></li>
 					</ul>
 				</div>
@@ -65,96 +67,145 @@
 					<div class="col-lg-8">
 						<section id="description">
 							<h2>Tour Details</h2>
-							<p>Per consequat adolescens ex, cu nibh commune <strong>temporibus vim</strong>, ad sumo viris eloquentiam sed. Mea appareat omittantur eloquentiam ad, nam ei quas oportere democritum. Prima causae admodum id est, ei timeam inimicus sed. Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
-							<p>Cum et probo menandri. Officiis consulatu pro et, ne sea sale invidunt, sed ut sint <strong>blandit</strong> efficiendi. Atomorum explicari eu qui, est enim quaerendum te. Quo harum viris id. Per ne quando dolore evertitur, pro ad cibo commune.</p>
+							<p style="text-align: justify;">Galle, a stunning coastal town in southern Sri Lanka, has something special for everyone—whether you love history, beaches, or adventure. The famous Galle Fort, a UNESCO World Heritage Site, is the heart of the city, where cobblestone streets wind past charming colonial buildings, boutique shops, and cozy cafés. Just a short drive away, you’ll find beautiful beaches like Unawatuna and Jungle Beach, ideal for swimming, snorkeling, or simply soaking up the sun. For a truly unforgettable experience, head to nearby Mirissa for whale-watching tours, where you might spot blue whales and playful dolphins. If you prefer to stay on land, guided bike rides through Galle’s lush countryside reveal the area’s local life and scenic beauty. Food lovers will be in heaven too—fresh seafood and authentic Sri Lankan dishes are served at seaside restaurants with breathtaking ocean views. With its vibrant art galleries, colorful markets, and relaxed coastal charm, Galle perfectly blends history, culture, and natural beauty into one unforgettable destination.</p>
+							<h3 class="fadeInUp"><span></span>Galle Fort</h3>
+							<p style="text-align: justify;">Galle Fort, a UNESCO World Heritage Site on Sri Lanka’s southern coast, is a living piece of history that beautifully blends colonial charm with vibrant local life. Originally built by the Portuguese in the 16th century and later fortified by the Dutch, the fort stands as one of the best-preserved examples of European architecture in Asia. Within its thick ramparts, narrow cobblestone streets lead to elegant colonial buildings, boutique shops, art galleries, and cozy cafés. As you stroll along the fort walls, you can enjoy stunning views of the Indian Ocean, especially at sunset when the sky glows over the iconic lighthouse. Beyond its beauty, Galle Fort is home to a diverse community, where history, culture, and modern creativity come together. It’s not just a monument—it’s a living, breathing town that captures the timeless spirit of Sri Lanka’s southern coast.</p>
 
-							<h3>Gallary</h3>
-							<div class="pictures_grid magnific-gallery clearfix">
-							    <figure><a href="../img/detail_gallery/detail_1.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_1.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_2.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_2.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_3.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_3.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_4.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_4.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_5.jpg" title="Photo title" data-effect="mfp-zoom-in"><span class="d-flex align-items-center justify-content-center">+10</span><img src="../img/detail_gallery/detail_5.jpg" alt=""></a></figure>
+							<div class="container margin_60_35">
+								<div class="main_title_2">
+									<span><em></em></span>
+									<h2>Here some pictures ...</h2>
+								</div>
+								<div class="grid">
+									<ul class="magnific-gallery">
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/sigiriya.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/sigiriya.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/2.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/2.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/3.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/3.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/4.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/4.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/5.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/5.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/6.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/6.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/7.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/7.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/8.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/8.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>
+								</div>
+								<!-- /grid gallery -->
 							</div>
 							<!-- /pictures -->
 							<hr>
 							<h3>Activities</h3>
-							<p>
-								Iudico omnesque vis at, ius an laboramus adversarium. An eirmod doctus admodum est, vero numquam et mel, an duo modo error. No affert timeam mea, legimus ceteros his in. Aperiri honestatis sit at. Eos aeque fuisset ei, case denique eam ne. Augue invidunt has ad, ullum debitis mea ei, ne aliquip dignissim nec.
-							</p>
-							<ul class="cbp_tmtimeline">
-								<li>
-									<time class="cbp_tmtime" datetime="09:30"><span>30 min.</span><span>09:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										1
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_1.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Interior of the cathedral</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="11:30"><span>2 hours</span><span>11:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										2
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_2.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Statue of Saint Reparata</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="13:30"><span>1 hour</span><span>13:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										3
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_3.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Huge clock decorated</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="14:30"><span>2 hours</span><span>14:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										4
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_4.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Vasari's fresco</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-							</ul>
+							<br>
+							<br>
+							<h4 class="fadeInUp"><span></span>Moonstone Mine</h4>
+							<p style="text-align: justify;">Located in Meetiyagoda, just a short drive from Galle, the Moonstone Mine offers a fascinating glimpse into Sri Lanka’s rich gemstone heritage. This small village is famous for producing exquisite blue moonstones, known for their soft, milky glow. Visitors can take guided tours down into the narrow mine shafts to see how the stones are carefully extracted by hand, using traditional methods passed down through generations. Afterward, you can watch skilled craftsmen cut and polish the gems, turning raw stones into beautiful jewelry. The experience is both educational and memorable, showcasing a unique part of Sri Lanka’s cultural and natural beauty</p>
+							
+							<h4 class="fadeInUp"><span></span>Stilt Fishing in Koggala</h4>
+							<p style="text-align: justify;">Stilt fishing in Koggala is one of the most iconic and picturesque sights along Sri Lanka’s southern coast. This traditional fishing method, unique to the island, involves fishermen balancing gracefully on wooden poles planted in the shallow waters near the shore. Perched above the waves, they patiently cast their lines at sunrise or sunset, creating a scene that feels timeless and almost poetic. Although many fishermen today do it more for visitors than for livelihood, stilt fishing still reflects the deep connection between coastal communities and the sea. Watching the fishermen silhouetted against the glowing horizon is an unforgettable glimpse into Sri Lanka’s coastal heritage and way of life.</p>
+
+							<h4 class="fadeInUp"><span></span>Turtle Hatcheries</h4>
+							<p style="text-align: justify;">The Turtle Hatcheries along Sri Lanka’s southern coast, especially near Galle and Bentota, play a vital role in protecting endangered sea turtles. These conservation centers work tirelessly to rescue turtle eggs from the beaches, keeping them safe from predators and poachers until they hatch. Visitors can learn about the different turtle species found in Sri Lanka, including the Green, Hawksbill, and Olive Ridley turtles. One of the most heartwarming experiences is watching baby turtles being released into the ocean, taking their very first steps toward the sea. A visit to a turtle hatchery is both educational and inspiring—a reminder of how important it is to preserve the island’s precious marine life for future generations.</p>
 							<hr>
 							<!-- /row -->
 							<!-- End Map -->
 						</section>
 						<!-- /section -->
 						<!--========== FOOTER STYLE START ==========-->
-						<?php include '../includes/tour-page-review.php'; ?>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) include '../includes/tour-page-review.php'; ?>
 						<!--========== FOOTER STYLE END ==========-->
 						<!-- /section -->
 						<hr>

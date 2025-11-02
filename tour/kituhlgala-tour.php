@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travel Kithulgala Water Rafting Tours, Book Kithulgala Water Rafting Tours, Kithulgala Water Rafting Tours in Sri Lanka">
+    <meta name="description" content="Travel Sigiriya Dambulla Tours, Book Sigiriya Dambulla Tours, Sigiriya Dambulla Tours in Sri Lanka">
     <meta name="author" content="Developed by MazZIT Solution">
-    <meta name="keywords" content="Travel Kithulgala Water Rafting Tours, Book Kithulgala Water Rafting Tours, Kithulgala Water Rafting Tours in Sri Lanka">
-    <title><?php echo $MAIN_TITLE; ?> Kithulgala Water Rafting Tours</title>
+    <meta name="keywords" content="Travel Sigiriya Dambulla Tours, Book Sigiriya Dambulla Tours, Sigiriya Dambulla Tours in Sri Lanka">
+    <title><?php echo $MAIN_TITLE; ?> Kitulgala Water Rafting</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
@@ -37,10 +37,10 @@
     <?php include '../includes/tour-header.php'; ?>
     <!--========== HEADER STYLE ONE END ==========-->
 	<main>
-		<section class="hero_in tours_detail" style="background: url('../img/hero_in_tours_detail_new.jpg') center center no-repeat; background-size: cover;">
+		<section class="hero_in tours_detail" style="background: url('../img/tour/kitulgala/kitulgala.jpg') center center no-repeat; background-size: cover;">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Kithulgala Water Rafting Tour</h1>
+					<h1 class="fadeInUp"><span></span>Kitulgala Water Rafting</h1>
 				</div>
 				<span class="magnific-gallery">
 					<a href="../img/gallery/tour_list_1.jpg" class="btn_photos" title="Photo title" data-effect="mfp-zoom-in">View photos</a>
@@ -55,7 +55,9 @@
 				<div class="container">
 					<ul class="clearfix">
 						<li><a href="#description" class="active">Description</a></li>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) { ?>
 						<li><a href="#reviews">Reviews</a></li>
+						<?php } ?>
 						<li><a href="#sidebar">Booking</a></li>
 					</ul>
 				</div>
@@ -65,96 +67,145 @@
 					<div class="col-lg-8">
 						<section id="description">
 							<h2>Tour Details</h2>
-							<p>Per consequat adolescens ex, cu nibh commune <strong>temporibus vim</strong>, ad sumo viris eloquentiam sed. Mea appareat omittantur eloquentiam ad, nam ei quas oportere democritum. Prima causae admodum id est, ei timeam inimicus sed. Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
-							<p>Cum et probo menandri. Officiis consulatu pro et, ne sea sale invidunt, sed ut sint <strong>blandit</strong> efficiendi. Atomorum explicari eu qui, est enim quaerendum te. Quo harum viris id. Per ne quando dolore evertitur, pro ad cibo commune.</p>
+							<p style="text-align: justify;">
+								Tucked away in Sri Lanka’s lush central hills, Kitulgala is a hidden gem for adventure lovers and nature enthusiasts alike. Known for its exhilarating white-water rafting, Kitulgala attracts thrill-seekers from around the world. The Kelani River, with its wild rapids, offers an adrenaline-pumping experience, perfect for both beginners and seasoned rafters. The backdrop of dense tropical rainforest adds an extra layer of excitement, making the entire rafting experience unforgettable.
 
-							<h3>Gallary</h3>
-							<div class="pictures_grid magnific-gallery clearfix">
-							    <figure><a href="../img/detail_gallery/detail_1.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_1.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_2.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_2.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_3.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_3.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_4.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_4.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_5.jpg" title="Photo title" data-effect="mfp-zoom-in"><span class="d-flex align-items-center justify-content-center">+10</span><img src="../img/detail_gallery/detail_5.jpg" alt=""></a></figure>
+But Kitulgala isn’t just about rafting. It’s a paradise for anyone looking to immerse themselves in nature. You can wander through serene jungle trails, spot vibrant bird species, or even cool off in the refreshing waters of nearby waterfalls, like the stunning Ramboda Falls. For those interested in history and archaeology, a visit to the Belilena Cave is a must. The cave is home to ancient human fossils, offering a fascinating glimpse into the past.
+
+Whether you're after an action-packed adventure or a peaceful retreat surrounded by nature, Kitulgala offers the best of both worlds. With its diverse activities and breathtaking scenery, it’s the perfect destination for anyone looking to experience Sri Lanka’s natural beauty up close.
+							</p>
+							
+							<div class="container margin_60_35">
+								<div class="main_title_2">
+									<span><em></em></span>
+									<h2>Here some pictures ...</h2>
+								</div>
+								<div class="grid">
+									<ul class="magnific-gallery">
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/sigiriya.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/sigiriya.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/2.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/2.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/3.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/3.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/4.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/4.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/5.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/5.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/6.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/6.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/7.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/7.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/8.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/8.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>
+								</div>
+								<!-- /grid gallery -->
 							</div>
 							<!-- /pictures -->
 							<hr>
 							<h3>Activities</h3>
-							<p>
-								Iudico omnesque vis at, ius an laboramus adversarium. An eirmod doctus admodum est, vero numquam et mel, an duo modo error. No affert timeam mea, legimus ceteros his in. Aperiri honestatis sit at. Eos aeque fuisset ei, case denique eam ne. Augue invidunt has ad, ullum debitis mea ei, ne aliquip dignissim nec.
-							</p>
-							<ul class="cbp_tmtimeline">
-								<li>
-									<time class="cbp_tmtime" datetime="09:30"><span>30 min.</span><span>09:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										1
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_1.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Interior of the cathedral</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="11:30"><span>2 hours</span><span>11:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										2
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_2.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Statue of Saint Reparata</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="13:30"><span>1 hour</span><span>13:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										3
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_3.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Huge clock decorated</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="14:30"><span>2 hours</span><span>14:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										4
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_4.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Vasari's fresco</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-							</ul>
+							<br>
+							<br>
+							<h4 class="fadeInUp"><span></span>Bird Watching in Kitulgala</h4>
+							
+							<p style="text-align: justify;">Birdwatching in Kitulgala is a truly magical experience for nature lovers. The dense rainforests and misty hills create the perfect habitat for a wide variety of birds, including many rare and endemic species found only in Sri Lanka. As you wander along quiet forest trails or paddle gently down the Kelani River, you might spot colorful species like the Sri Lanka Blue Magpie, the Chestnut-backed Owlet, or the Ceylon Hanging Parrot. The peaceful surroundings make it easy to lose track of time as you listen to birds calling from the treetops. Whether you’re an experienced birder or a curious traveler, Kitulgala’s rich biodiversity and serene atmosphere make it one of the best birdwatching spots in the country. It’s not just about spotting birds—it’s about connecting with the natural rhythm of the forest and soaking in the calm beauty that surrounds you.</p>
+							
 							<hr>
 							<!-- /row -->
 							<!-- End Map -->
 						</section>
 						<!-- /section -->
 						<!--========== FOOTER STYLE START ==========-->
-						<?php include '../includes/tour-page-review.php'; ?>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) include '../includes/tour-page-review.php'; ?>
 						<!--========== FOOTER STYLE END ==========-->
 						<!-- /section -->
 						<hr>

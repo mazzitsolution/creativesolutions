@@ -35,7 +35,7 @@
 						<li><a href="tour/kituhlgala-tour.php">Kithulgala Water Rafting Day Tour</a></li>
 						<li><a href="tour/galle-tour.php">Galle Day Tour</a></li>
 						<li><a href="tour/yala-tour.php">Yala National Park Day Tour</a></li>
-						<li><a href="tour/udawalawa-tour.php">Udawalawe safari Day Tour</a></li>
+						<li><a href="tour/udawalawe-tour.php">Udawalawe safari Day Tour</a></li>
 						<li><a href="tour/kandy-tour.php">Kandy Day Tour</a></li>
 						<li><a href="tour/mirissa-tour.php">Whale watching Tour</a></li>
 						<li><a href="tour/benthota-tour.php">Bentota Deep Sea Fishing Day Tour</a></li>
