@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travel Kandy Tours, Book Kandy Tours, Kandy Tours in Sri Lanka">
+    <meta name="description" content="Travel Sigiriya Dambulla Tours, Book Sigiriya Dambulla Tours, Sigiriya Dambulla Tours in Sri Lanka">
     <meta name="author" content="Developed by MazZIT Solution">
     <meta name="keywords" content="Travel Kandy Tours, Book Kandy Tours, Kandy Tours in Sri Lanka">
     <title><?php echo $MAIN_TITLE; ?> Kandy Tours</title>
@@ -37,10 +37,10 @@
     <?php include '../includes/tour-header.php'; ?>
     <!--========== HEADER STYLE ONE END ==========-->
 	<main>
-		<section class="hero_in tours_detail" style="background: url('../img/hero_in_tours_detail_new.jpg') center center no-repeat; background-size: cover;">
+		<section class="hero_in tours_detail" style="background: url('../img/tour/Kandy/Kandy.jpg') center center no-repeat; background-size: cover;">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Kandy Tour</h1>
+					<h1 class="fadeInUp"><span></span>Kandy Tours</h1>
 				</div>
 				<span class="magnific-gallery">
 					<a href="../img/gallery/tour_list_1.jpg" class="btn_photos" title="Photo title" data-effect="mfp-zoom-in">View photos</a>
@@ -55,7 +55,9 @@
 				<div class="container">
 					<ul class="clearfix">
 						<li><a href="#description" class="active">Description</a></li>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) { ?>
 						<li><a href="#reviews">Reviews</a></li>
+						<?php } ?>
 						<li><a href="#sidebar">Booking</a></li>
 					</ul>
 				</div>
@@ -65,96 +67,152 @@
 					<div class="col-lg-8">
 						<section id="description">
 							<h2>Tour Details</h2>
-							<p>Per consequat adolescens ex, cu nibh commune <strong>temporibus vim</strong>, ad sumo viris eloquentiam sed. Mea appareat omittantur eloquentiam ad, nam ei quas oportere democritum. Prima causae admodum id est, ei timeam inimicus sed. Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
-							<p>Cum et probo menandri. Officiis consulatu pro et, ne sea sale invidunt, sed ut sint <strong>blandit</strong> efficiendi. Atomorum explicari eu qui, est enim quaerendum te. Quo harum viris id. Per ne quando dolore evertitur, pro ad cibo commune.</p>
+							<p style="text-align: justify;">Nestled in the heart of Sri Lanka’s hill country, Kandy is a city that perfectly blends history, spirituality, and natural beauty. Once the last royal capital of the island, Kandy still carries the charm of its regal past, with misty hills surrounding the serene Kandy Lake and the majestic Temple of the Tooth Relic (Sri Dalada Maligawa) — one of the most sacred sites for Buddhists worldwide.</p>
+							<p style="text-align: justify;">A stroll through the Peradeniya Botanical Gardens offers a peaceful escape, with sprawling lawns, towering palms, and colorful orchids. For a bit of adventure, nearby Hanthana Mountain Range and Udawattakele Sanctuary are perfect for short hikes and birdwatching. You can also take a scenic train ride from Kandy to Ella — often called one of the most beautiful train journeys in the world — passing through tea plantations and mist-covered valleys.</p>
+							<p style="text-align: justify;">Don’t miss exploring local tea factories, where you can sip freshly brewed Ceylon tea while learning about its heritage. And as evening falls, the sound of temple drums and the cool mountain air create an atmosphere that feels timeless.</p>
 
-							<h3>Gallary</h3>
-							<div class="pictures_grid magnific-gallery clearfix">
-							    <figure><a href="../img/detail_gallery/detail_1.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_1.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_2.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_2.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_3.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_3.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_4.jpg" title="Photo title" data-effect="mfp-zoom-in"><img src="../img/detail_gallery/detail_4.jpg" alt=""></a></figure>
-							    <figure><a href="../img/detail_gallery/detail_5.jpg" title="Photo title" data-effect="mfp-zoom-in"><span class="d-flex align-items-center justify-content-center">+10</span><img src="../img/detail_gallery/detail_5.jpg" alt=""></a></figure>
+							<div class="container margin_60_35">
+								<div class="main_title_2">
+									<span><em></em></span>
+									<h2>Here some pictures ...</h2>
+								</div>
+								<div class="grid">
+									<ul class="magnific-gallery">
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/sigiriya.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/sigiriya.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/2.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/2.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/3.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/3.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/4.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/4.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/5.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/5.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/6.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/6.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/7.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/7.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+										<li>
+											<figure>
+												<img src="../img/tour/sigiriya/8.jpg" alt="">
+												<figcaption>
+													<div class="caption-content">
+														<a href="../img/tour/sigiriya/8.jpg" title="Photo title" data-effect="mfp-zoom-in">
+															<i class="pe-7s-albums"></i>
+															<p>Click to Zoom</p>
+														</a>
+													</div>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>
+								</div>
+								<!-- /grid gallery -->
 							</div>
 							<!-- /pictures -->
+
 							<hr>
 							<h3>Activities</h3>
-							<p>
-								Iudico omnesque vis at, ius an laboramus adversarium. An eirmod doctus admodum est, vero numquam et mel, an duo modo error. No affert timeam mea, legimus ceteros his in. Aperiri honestatis sit at. Eos aeque fuisset ei, case denique eam ne. Augue invidunt has ad, ullum debitis mea ei, ne aliquip dignissim nec.
-							</p>
-							<ul class="cbp_tmtimeline">
-								<li>
-									<time class="cbp_tmtime" datetime="09:30"><span>30 min.</span><span>09:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										1
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_1.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Interior of the cathedral</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="11:30"><span>2 hours</span><span>11:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										2
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_2.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Statue of Saint Reparata</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="13:30"><span>1 hour</span><span>13:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										3
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_3.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Huge clock decorated</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-								<li>
-									<time class="cbp_tmtime" datetime="14:30"><span>2 hours</span><span>14:30</span>
-									</time>
-									<div class="cbp_tmicon">
-										4
-									</div>
-									<div class="cbp_tmlabel">
-										<div class="hidden-xs">
-											<img src="../img/tour_plan_4.jpg" alt="" class="rounded-circle thumb_visit">
-										</div>
-										<h4>Vasari's fresco</h4>
-										<p>
-											Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
-										</p>
-									</div>
-								</li>
-							</ul>
+							<br>
+							<br>
+							<h4 class="fadeInUp"><span></span>Nature & Adventure</h4>
+							<h5 class="fadeInUp"><span></span>Knuckles Mountain Range (1–1.5 hours from Kandy)</h5>
+							<p style="text-align: justify;">A UNESCO World Heritage Site perfect for trekking, birdwatching, and camping amid stunning mountain scenery.</p>
+							<h5 class="fadeInUp"><span></span>Hanthana Mountain Range (15–20 min)</h5>
+							<p style="text-align: justify;">Ideal for short hikes with panoramic views over Kandy.</p>
+
+							<h5 class="fadeInUp"><span></span>Udawattakele Forest Reserve (10 min)</h5>
+							<p style="text-align: justify;">A peaceful jungle walk just behind the Temple of the Tooth — great for spotting monkeys and rare birds.</p>
+
+							<h5 class="fadeInUp"><span></span>Hulu River Waterfalls / Huluganga Falls (1 hour)</h5>
+							<p style="text-align: justify;">A scenic spot surrounded by lush greenery and tea estates.</p>
+
+
 							<hr>
+							
 							<!-- /row -->
 							<!-- End Map -->
 						</section>
 						<!-- /section -->
 						<!--========== FOOTER STYLE START ==========-->
-						<?php include '../includes/tour-page-review.php'; ?>
+						<?php if(isset($TOURREVIEWONTOUTPAGES)) include '../includes/tour-page-review.php'; ?>
 						<!--========== FOOTER STYLE END ==========-->
 						<!-- /section -->
 						<hr>
